@@ -624,7 +624,7 @@ def cluster_analysis(files, centroids, lapmode, datamode):
     #     plt.plot(t, v, label='converted v[mile/h]')
     #     plt.grid(True)
     #     plt.legend()
-    #     savename = lapmode + '_altitude_labelID_' + filename + '.png'
+    #     savename = 'result/' + lapmode + '_altitude_labelID_' + filename + '.png'
     #     plt.savefig(savename, format='png', dpi=300)
     #     plt.clf()
 
